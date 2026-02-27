@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="beige">
+    <center>
+    <h1>Student Registration Form</h1>
+    </center> 
+
+    <form action="done.html">
+         <label> Roll No:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"><br><br>
+         <label>Student Name:</label>&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="First Name"> &nbsp; <input type="text" placeholder="Last Name"><br><br>
+         <label> Father's Name:</label>&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"><br><br>
+         <label> Date of Birth:</label>&nbsp;&nbsp;&nbsp;&nbsp; <input type="date"> <label>(DD-MM-YYYY)</label> <br><br>
+         <label> Mobile No:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="tel"> <br><br>
+         <label> Email id:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"> <br><br>
+         <label> Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="password"> <br><br>
+         <p>
+            Gender:
+            <input type="radio" name="Gender" value="Male">
+            <label>Male</label>
+            <input type="radio" name="Gender" value="Female">
+            <label>Female</label>
+         </p>
+         <p> 
+            Department:
+            <input type="checkbox" name="Course">
+            <label>CSS</label>
+            <input type="checkbox" name="Course">
+            <label>ECE</label>
+         </p>
+          <p> 
+         Course:
+         <select input type="dropdown" name="Course">
+            <option>BSCS</option>
+            <option>BSIT</option>
+            <option>BSECE</option>
+         </select>
+         </p>
+         <p>
+            Student Photo:
+            <input type="file" name="Photo">
+         </p>
+         <label>City:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
+         </p>
+         <p>
+          Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+         <textarea name="address" rows="18" cols="40"></textarea>
+         </p>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+     </form>    
+</body>
+</html>
