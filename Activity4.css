@@ -1,0 +1,121 @@
+.Header {
+  font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+  color: #2f6fa3;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 25px;
+}
+.StudentInfo{
+    width: 60%;
+    padding: 10px 20px;
+    margin: 8px auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+    align-content: center;
+    background-color: aliceblue;
+}
+.formrows {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+}
+.formrows label {
+    width: 150px;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+}
+.formrows input {
+    font-size:15px ;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+    flex: 1;
+    padding: 8px;
+}
+.radio-group {
+  display: flex;
+  font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+  gap: 10px; 
+  align-items: center;
+}
+.group-row{
+    display: flex;
+    gap: 5px; 
+    width: 83%;
+}
+.group-row input{
+    flex: 1;  
+}
+.Studentrows {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.Studentrows label {
+    width: 150px;
+}
+.Studentrows input[type="text"], .Studentrows select {
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+}
+.Courserows{
+    margin: 10px 0;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+}
+.Courserows select{
+    width:90%;
+    padding:7px 25px;
+    border:2px solid black;
+    border-radius:4px;
+    box-sizing:border-box;
+    font-family:'Comic Sans MS', 'Trebuchet MS', cursive;
+}
+.Checkbox{
+    align-items: center;
+}
+.Courserows input[type=checkbox]{
+    display: flex;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+    gap: 10px; 
+    align-items: center;
+}
+.Courserows {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+}
+
+.Courserows label.mainlabel {
+    width: 150px;  
+}
+.Courserows input[type="checkbox"], 
+.Courserows label.checkbox-label {
+    margin-right: 15px;
+}
+.Courserows select {
+    flex: 1;
+    font-size: 15px;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Submit{
+    width: 60%;
+    padding: 10px 20px;
+    margin: 8px auto;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+    text-align: left;
+}
+.Submit input[type="submit"], .Submit input[type="reset"]{
+    width: 80px;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
+}
+.Submit input[type="submit"]:hover,.Submit input[type="reset"]:hover {
+    background-color: grey;
+}

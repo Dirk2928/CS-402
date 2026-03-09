@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Activity4.css">
+    <title>DMC_Activity_4</title>
+</head>
+<body bgcolor="#faf9f5" >
+     <div class="Header">
+        <h1>Student Registration Form</h1>
+     </div>
+
+    <form action="done.html">
+        <div class="StudentInfo">
+
+         <div class="formrows">
+         <label> Roll No:</label>
+         <input type="text" placeholder="Roll No"><br><br>
+         </div>
+
+         <div class="formrows">
+         <label>Student Name:</label>
+         <div class="group-row">
+         <input type="text" placeholder="First Name">
+         <input type="text" placeholder="Last Name">
+         </div>
+         </div>
+
+         <div class="formrows">
+         <label> Father's Name:</label><input type="text" placeholder="Father's Name"><br><br>
+         </div>
+
+         <div class="formrows">
+         <label> Date of Birth:</label><input type="date">
+         </div>
+
+         <div class="formrows">
+         <label> Mobile No:</label><input type="tel" placeholder="Tel No."> <br><br>
+         </div>
+
+         <div class="formrows">
+         <label> Email id:</label><input type="text" placeholder="Email"> <br><br>
+         </div>
+
+         <div class="formrows">
+         <label> Password:</label><input type="password" placeholder="Password"> <br><br>
+         </div>
+
+         <div class="formrows">
+         <label>Gender:</label>
+         <div class="radio-group">
+         <label>
+          <input type="radio" name="Gender" value="Male"> Male
+         </label>
+         <label>
+          <input type="radio" name="Gender" value="Female"> Female
+         </label>
+         </div>
+         </div>
+         </div>
+
+         <div class="StudentInfo">
+         <div class="Courserows">
+         <label>Department:</label>
+         <input type="checkbox" name="dept">
+         <label>CSS</label>
+         <input type="checkbox" name="dept">
+         <label>ECE</label><br><br>
+         </div>
+
+         <label>Course:</label>
+         <div class="Courserows">
+         <select name="Course">
+            <option>BSCS</option>
+            <option>BSIT</option>
+            <option>BSECE</option>
+         </select>
+     </div>
+     </div>
+
+<div class="StudentInfo">
+    <label>Student Photo:</label>
+    <input type="file" name="Photo">
+</div>
+
+<div class="StudentInfo">
+    <div class="formrows">
+    <label>City:</label>
+    <input type="text" placeholder="City"><br><br>
+    </div>
+    <div class="formrows">
+    <label>Address:</label>
+    <textarea name="address" rows="18" cols="94"></textarea>
+    </div>
+    </div>
+</div>
+
+<div class="Submit">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+</div>
+</form>  
+</body>
+</html>
